@@ -1,0 +1,55 @@
+body {
+    background-color: #000;
+    color: gold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background: #111;
+    padding: 20px;
+}
+
+nav a {
+    color: gold;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 50px;
+}
+
+.btn {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.reel {
+    font-size: 40px;
+    border: 2px solid gold;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60px;
+    text-align: center;
+}
+
+.form-container {
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid gold;
+    border-radius: 10px;
+}
