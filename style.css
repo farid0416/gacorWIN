@@ -1,1 +1,28 @@
-nav {background:#d4af37;padding:10px;} nav a {margin:10px;color:black;text-decoration:none;font-weight:bold;} body {font-family:Arial;text-align:center;}
+
+:root{
+  --gold: #d4af37;
+  --dark: #0b0b0b;
+  --muted: #1a1a1a;
+}
+*{box-sizing:border-box}
+body{font-family: Arial, sans-serif;background: linear-gradient(180deg,#070707,#0f0f0f);color:var(--gold);margin:0;padding:0}
+.container{max-width:1000px;margin:0 auto;padding:20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid rgba(212,175,55,0.12)}
+.brand{font-size:24px;font-weight:700;color:var(--gold);text-decoration:none}
+nav a{color:var(--gold);margin-left:14px;text-decoration:none;font-weight:600}
+.balance{background:#111;padding:8px 12px;border-radius:8px;color:#fff;font-weight:700}
+.hero{padding:30px 0;text-align:center}
+.btn{background:var(--gold);color:#000;padding:10px 18px;border-radius:8px;text-decoration:none;display:inline-block;font-weight:700;border:none;cursor:pointer}
+.btn.secondary{background:transparent;color:var(--gold);border:1px solid rgba(212,175,55,0.25)}
+.game-area{display:flex;flex-direction:column;align-items:center;gap:18px;padding:30px}
+.reels{display:flex;gap:12px}
+.reel{width:120px;height:120px;border-radius:12px;background:#111;display:flex;align-items:center;justify-content:center;font-size:48px;border:3px solid rgba(212,175,55,0.08)}
+.controls{display:flex;gap:12px;align-items:center}
+.info{background:#0f0f0f;padding:12px;border-radius:8px;color:#ccc}
+.form {background:#0f0f0f;padding:20px;border-radius:8px;max-width:420px;margin:20px auto;color:#ddd}
+input[type="text"], input[type="password"], input[type="number"], input[type="email"]{width:100%;padding:10px;margin:8px 0;border-radius:6px;border:1px solid rgba(255,255,255,0.06);background:#080808;color:var(--gold)}
+.footer{padding:20px;text-align:center;color:#666;font-size:14px}
+.result{font-size:20px;font-weight:800;color:var(--gold);min-height:28px}
+.small{font-size:14px;color:#ccc}
+.header-left{display:flex;gap:12px;align-items:center}
+@media(max-width:600px){.reel{width:80px;height:80px;font-size:32px}.container{padding:12px}}

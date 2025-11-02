@@ -1,10 +1,50 @@
-<!DOCTYPE html><html><head><link rel='stylesheet' href='style.css'><title>gacorWIN</title></head><body>
-<nav>
-  <a href="index.html">Home</a>
-  <a href="login.html">Login</a>
-  <a href="register.html">Register</a>
-  <a href="deposit.html">Deposit</a>
-  <a href="withdraw.html">Withdraw</a>
-  <a href="promo.html">Promo</a>
-</nav>
-<h1>Selamat Datang di gacorWIN</h1></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>gacorWIN - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-left">
+        <a class="brand" href="index.html">gacorWIN</a>
+        <nav>
+          <a href="game.html">Main Slot</a>
+          <a href="deposit.html">Deposit</a>
+          <a href="promo.html">Promo</a>
+        </nav>
+      </div>
+      <div>
+        <span id="nav-user" class="small"></span>
+        <span id="nav-balance" class="balance">Rp 0</span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1>Selamat datang di <span style="color:gold">gacorWIN</span></h1>
+      <p class="small">Masuk atau daftar untuk menyimpan saldo. Semua bekerja secara lokal (frontend only).</p>
+      <div style="margin-top:18px">
+        <a class="btn" href="game.html">Main Sekarang</a>
+        <a class="btn secondary" href="login.html">Login / Daftar</a>
+      </div>
+    </section>
+
+    <section class="info">
+      <p class="small">Fitur pada demo ini:</p>
+      <ul>
+        <li>Slot interaktif dengan animasi</li>
+        <li>Saldo pemain yang tersimpan di browser (localStorage)</li>
+        <li>Login/Daftar sederhana (frontend saja)</li>
+        <li>Deposit menambah saldo</li>
+        <li>Efek suara spin dan jackpot (menggunakan WebAudio)</li>
+      </ul>
+    </section>
+
+    <footer class="footer">© 2025 gacorWIN - Demo</footer>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>

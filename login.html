@@ -1,10 +1,43 @@
-<!DOCTYPE html><html><head><link rel='stylesheet' href='style.css'><title>Login</title></head><body>
-<nav>
-  <a href="index.html">Home</a>
-  <a href="login.html">Login</a>
-  <a href="register.html">Register</a>
-  <a href="deposit.html">Deposit</a>
-  <a href="withdraw.html">Withdraw</a>
-  <a href="promo.html">Promo</a>
-</nav>
-<h1>Login</h1><form><input type='text' placeholder='Username'><input type='password' placeholder='Password'><button>Login</button></form></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>gacorWIN - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header>
+  <div class="header-left">
+    <a class="brand" href="index.html">gacorWIN</a>
+    <nav>
+      <a href="game.html">Main Slot</a>
+      <a href="deposit.html">Deposit</a>
+    </nav>
+  </div>
+  <div>
+    <span id="nav-user" class="small"></span>
+    <span id="nav-balance" class="balance">Rp 0</span>
+  </div>
+</header>
+
+<section>
+  <div class="form">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label class="small">Username</label>
+      <input type="text" id="loginUser" required>
+      <label class="small">Password</label>
+      <input type="password" id="loginPass" required>
+      <div style="margin-top:10px"><button class="btn" type="submit">Masuk</button>
+      <a href="register.html" class="btn secondary" style="margin-left:8px">Daftar</a></div>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">© 2025 gacorWIN - Demo</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
